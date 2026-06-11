@@ -1,160 +1,167 @@
 export const personalInfo = {
-  name: "Sangavi S",
+name: "Sangavi S",
 
-  role:
-    "Full Stack Developer | MERN Stack Enthusiast",
+role:
+"Aspiring Software Engineer & Full Stack Developer",
 
-  tagline:
-    "Building modern web applications with clean code, thoughtful design, and a passion for continuous learning.",
+tagline:
+"Passionate about building scalable web applications, solving complex problems, and transforming ideas into impactful digital experiences.",
 
-  location:
-    "Coimbatore, Tamil Nadu",
+location:
+"Coimbatore, Tamil Nadu, India",
 
-  email:
-    "sangavisakthivel28062005@gmail.com",
+email:
+"[sangavisakthivel28062005@gmail.com](mailto:sangavisakthivel28062005@gmail.com)",
 
-  phone:
-    "+91 9585829401",
+phone:
+"+91 9585829401",
 
-  github:
-    "https://github.com/Sangavisakthivel",
+github:
+"https://github.com/Sangavisakthivel",
 
-  linkedin:
-    "https://www.linkedin.com/in/sangavi-s-8ba785298",
+linkedin:
+"https://www.linkedin.com/in/sangavi-s-8ba785298",
 
-  resume:
-    "https://drive.google.com/file/d/1XPIIM-5Jc-va1-lhd6YiwdXk2pAmlir7/view?usp=drive_link",
+resume:
+"https://drive.google.com/file/d/1XPIIM-5Jc-va1-lhd6YiwdXk2pAmlir7/view?usp=drive_link",
 
-  cgpa:
-    "8.3",
+cgpa: "8.3",
 
-  graduation:
-    "2027",
+graduation: "2027",
 };
 
- export const journey = [
-  {
-    icon: "◉",
-    title: "The Beginning",
-    year: "2023",
-    description:
-      "Started my B.Tech journey in Information Technology and developed a strong interest in programming and problem solving."
-  },
+export const journey = [
+{
+title: "Discovering Technology",
+year: "2023",
+description:
+"Began my B.Tech in Information Technology and developed a strong curiosity for programming, software development, and logical problem solving."
+},
 
-  {
-    icon: "📚",
-    title: "Building Core Strength",
-    year: "2024",
-    description:
-      "Focused on mastering Data Structures & Algorithms, DBMS, and Computer Networks while strengthening logical thinking."
-  },
+{
+title: "Building Strong Foundations",
+year: "2024",
+description:
+"Focused on mastering Data Structures & Algorithms, Database Management Systems, Computer Networks, and Object-Oriented Programming."
+},
 
-  {
-    icon: "💻",
-    title: "From Learner to Builder",
-    year: "2025",
-    description:
-      "Built full-stack MERN applications, explored modern web technologies, and started working on AI-powered solutions."
-  },
+{
+title: "Turning Knowledge Into Projects",
+year: "2025",
+description:
+"Started building full-stack applications using the MERN stack, implementing authentication systems, database integration, and responsive user interfaces."
+},
 
-  {
-    icon: "⚙",
-    title: "Growing as a Developer",
-    year: "Today",
-    description:
-      "Improving software engineering practices, building scalable projects, and continuously learning new technologies."
-  },
+{
+title: "Expanding Into Modern Technologies",
+year: "Present",
+description:
+"Exploring AI-powered applications, cloud-ready architectures, and modern software engineering practices while continuously improving development skills."
+},
 
-  {
-    icon: "◈",
-    title: "Vision Ahead",
-    year: "Future",
-    description:
-      "Aspiring to become a highly skilled Full Stack Engineer creating impactful products powered by web technologies and AI."
-  }
+{
+title: "Future Vision",
+year: "Beyond",
+description:
+"Aspiring to become a highly skilled Software Engineer capable of building scalable products that create meaningful impact for users worldwide."
+}
 ];
+
 export const skills = {
-  frontend: [
-    "React",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Tailwind CSS",
-  ],
+frontend: [
+"React.js",
+"JavaScript",
+"HTML5",
+"CSS3",
+"Tailwind CSS",
+"Responsive Design"
+],
 
-  backend: [
-    "Node.js",
-    "Express.js",
-    "JWT Authentication",
-    "REST APIs",
-  ],
+backend: [
+"Node.js",
+"Express.js",
+"REST APIs",
+"JWT Authentication"
+],
 
-  database: [
-    "MongoDB",
-  ],
+database: [
+"MongoDB",
+"MongoDB Compass"
+],
 
-  core: [
-    "DSA",
-    "DBMS",
-    "Computer Networks",
-  ],
+core: [
+"Data Structures & Algorithms",
+"Database Management Systems",
+"Computer Networks",
+"Operating Systems"
+],
 
-  tools: [
-    "Git",
-    "VS Code",
-    "MongoDB Compass",
-  ],
+tools: [
+"Git",
+"GitHub",
+"VS Code",
+"Postman"
+],
 };
 
 export const projects = [
-  {
-    title:
-      "Inventory Management System",
+{
+  title: "Inventory Management System",
 
-    description:
-      "Full-stack inventory platform with role-based access control and JWT authentication.",
+  description:
+    "A full-stack inventory management platform with JWT authentication, role-based access control, stock monitoring, cart management, and MongoDB integration.",
 
-    image:
-      "/src/assets/inventory.png",
+  tech: [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+  ],
 
-    github:
-      "#",
+  image: "/src/assets/inventory.png",
 
-    demo:
-      "#",
-  },
+  github: "#",
 
-  {
-    title:
-      "GFG AI Quiz Generator",
+  demo: "#",
+},
 
-    description:
-      "Chrome extension using Gemini AI to generate quizzes dynamically.",
+{
+title:
+"AI Quiz Generator",
 
-    image:
-      "/src/assets/quiz.png",
 
-    github:
-      "#",
+description:
+  "A Chrome extension that leverages Gemini AI to generate dynamic quizzes from learning content, helping users practice and reinforce knowledge effectively.",
 
-    demo:
-      "#",
-  },
+image:
+  "/src/assets/quiz.png",
 
-  {
-    title:
-      "AI Email Automation",
+github:
+  "#",
 
-    description:
-      "AI-powered email classification and automated response system.",
+demo:
+  "#",
 
-    image:
-      "/src/assets/email.png",
+},
 
-    github:
-      "#",
+{
+title:
+"AI Email Automation System",
 
-    demo:
-      "#",
-  },
+description:
+  "An intelligent email processing solution capable of classifying messages, generating automated responses, and improving communication efficiency.",
+
+image:
+  "/src/assets/email.png",
+
+github:
+  "#",
+
+demo:
+  "#",
+
+},
+
+
 ];
